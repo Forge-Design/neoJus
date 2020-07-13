@@ -1,0 +1,274 @@
+/* BANNER HOME */
+
+.banner {
+  position: relative;
+
+  &__imagem {
+    background: url(../img/banner.jpg) center center no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+
+  &__description {
+    position: absolute;
+    right: 140px;
+    bottom: 30px;
+    width: 360px;
+
+    .banner__title {
+      color: $white;
+      font-weight: 700;
+    }
+
+    .banner__link {
+      color: $gold;
+    }
+  }
+}
+
+/* CURSOS */
+.cursos {
+  &__title {
+    color: $ocean;
+    font-weight: bold;
+  }
+
+  &__subtitle {
+    color: $gray;
+  }
+
+  &__lista {
+    li {
+      margin: 0 10px 0 0;
+
+      a {
+        color: $gold;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__card {
+
+    &--blue {
+      background-color: $blue;
+      color: $white;
+      border-bottom-left-radius: 15px;
+      border-top-left-radius: 15px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      padding: 30px;
+
+      &--title {
+        font-weight: 700;
+      }
+    }
+
+    &--white {
+      background-color: $white;
+      padding: 50px;
+      height: 400px;
+      border-radius: 15px;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05);
+      border: 1px solid transparent;
+
+      &--lista {
+        li {
+          margin: 15px 0;
+          color: $gray;
+          font-size: 12px;
+
+          i {
+            margin: 0 10px;
+          }
+        }
+      }
+
+      &--title {
+        color: $ocean;
+        font-weight: bold;
+      }
+
+      &--valor {
+        color: $gold;
+        font-weight: bold;
+      }
+
+      &--ver {
+        color: $ocean;
+        font-size: 25px;
+        border: 2px solid $ocean;
+        display: inline-block;
+        text-align: center;
+        padding: 5px 17px;
+        border-radius: 35px;
+        float: right;
+      }
+
+      &:hover {
+        border: 1px solid $blue;
+        transition: ease-in 0.2s;
+
+        .cursos__card--white--ver {
+          color: $gold;
+          border: 2px solid $gold;
+          transition: ease-in 0.2s;
+        }
+      }
+    }
+
+    &--todos {
+      a {
+        color: $ocean;
+        font-weight: bold;
+        text-align: right;
+        display: block;
+        margin: 10px;
+      }
+    }
+  }
+}
+
+/* CURSOS */
+
+/* CORPO DOCENTE */
+.corpodocente {
+  padding: 50px 0;
+
+  &__apresentacao {
+    background-color: $black;
+    color: $white;
+    border-radius: 15px;
+    padding: 30px;
+    height: 100%;
+
+    &--title {
+      transform: rotate(-90deg);
+      display: block;
+      position: absolute;
+      top: 120px;
+      left: 0;
+      font-weight: bold;
+    }
+
+    &--pessoa {
+      img {
+        &:hover {
+          border: 1px solid $blue;
+          transition: ease-in 0.3s;
+        }
+      }
+    }
+
+    &--white {
+      background-color: $white;
+      padding: 30px;
+      height: 100%;
+
+      &--title {
+        color: $ocean;
+        font-weight: bold;
+
+      }
+
+      &--lista {
+        p {
+          font-size: 12px;
+          color: $gray;
+        }
+      }
+
+      &--text {
+        color: $gray;
+        font-size: 14px;
+      }
+
+      &--acessar {
+        text-align: right;
+
+        a {
+          color: $ocean;
+          font-weight: bold;
+          display: block;
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+}
+
+/* BLOG */
+
+.blog {
+  &__card {
+    &--blue {
+      background-color: $ocean;
+      border-bottom-left-radius: 15px;
+      border-top-left-radius: 15px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      padding: 30px;
+
+      &>ul {
+        &>li {
+          margin: 10px 0;
+
+          &>a {
+            color: $white;
+            font-weight: bold;
+
+            &:hover {
+              color: $gold;
+            }
+          }
+        }
+      }
+    }
+
+    &--destaque {
+      padding: 30px;
+      background-color: $white;
+      border-radius: 15px;
+
+      &--description {
+        &--title {
+          font-weight: bold;
+          color: $ocean;
+        }
+
+        &--date {
+          color: $gray;
+          font-size: 12px;
+        }
+      }
+    }
+
+    // OUTRAS POSTAGENS
+    &--outros {
+      background-color: $white;
+      height: 380px;
+      border-radius: 15px;
+      padding: 30px;
+
+      &--postagem {
+        margin: 10px 0;
+        padding: 10px 0;
+        border-bottom: 1px solid $ocean;
+      }
+    }
+
+    &--acessar {
+      &>a {
+        color: $ocean;
+        font-weight: bold;
+        display: block;
+        text-align: right;
+        margin: 20px 0;
+      }
+    }
+  }
+
+}

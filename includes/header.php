@@ -31,9 +31,44 @@
   <link rel="stylesheet" href="<?php echo U?>src/vendors/bootstrap/bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="<?php echo U?>src/css/main.min.css">
-  <!-- Swiper -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 
 </head>
 
 <body>
+
+  <nav class="navbar navbar-expand-lg mynavbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <figure>
+          <img src="<?php echo U?>src/img/logo.png" alt="logomarca neojus" class="mynavbar__logo">
+        </figure>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNEO"
+        aria-controls="navbarNEO" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNEO">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Sobre <span class="sr-only">(página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Corpo docente</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nj Play</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Publicações</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

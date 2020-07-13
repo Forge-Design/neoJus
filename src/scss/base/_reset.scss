@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 * {
   margin: 0;
@@ -11,10 +11,10 @@
 html,
 body,
 button {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fff;
+  background-color: $bg;
 }
 
 
@@ -25,9 +25,10 @@ a:hover {
   outline: 0;
 }
 
-section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+section,
+main {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 *,

@@ -256,7 +256,6 @@
 </main>
 
 
-
 <!-- Include Footer -->
 <?php include_once(U . 'includes/footer.php'); ?>
 <!-- Include Footer -->

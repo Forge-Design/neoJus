@@ -1,0 +1,11 @@
+.btn__enviar {
+  color: $gold;
+
+  img {
+    padding: 0 0 0 15px;
+  }
+
+  &:hover {
+    color: $white;
+  }
+}

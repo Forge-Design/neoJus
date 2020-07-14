@@ -1,0 +1,26 @@
+footer {
+
+  & .redesocial {
+
+    &__title {
+      color: $gold;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    &__link {
+      color: $gold;
+      font-weight: bold;
+    }
+  }
+
+  .contato {
+    background-color: $ocean;
+    padding: 50px 0;
+
+    &__title {
+      color: $white;
+      font-weight: bold;
+    }
+  }
+}

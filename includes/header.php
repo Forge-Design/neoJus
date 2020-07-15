@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
   <!-- Meta tags Obrigatórias -->
-  <!-- Required meta tags -->
-  <title></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="" />
@@ -31,44 +25,59 @@
   <link rel="stylesheet" href="<?php echo U?>src/vendors/bootstrap/bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="<?php echo U?>src/css/main.min.css">
+  </head>
 
-</head>
-
-<body>
-
-  <nav class="navbar navbar-expand-lg mynavbar">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <figure>
-          <img src="<?php echo U?>src/img/logo.png" alt="logomarca neojus" class="mynavbar__logo">
-        </figure>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNEO"
-        aria-controls="navbarNEO" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNEO">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Sobre <span class="sr-only">(página atual)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Corpo docente</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Cursos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Nj Play</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Publicações</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
-          </li>
-        </ul>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="row align-items-center justify-content-end">
+          <div class="logar">
+            <ul class="list-unstyled d-flex p-0 m-0">
+              <li>
+                <a href=""><img src="<?php echo U?>src/img/icons/icon-login.png" alt=""> Área do Aluno</a>
+              </li>
+              <li>
+                <a href="">Cadastrar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <figure>
+            <img src="<?php echo U?>src/img/logo.png" alt="logomarca neojus" class="mynavbar__logo">
+          </figure>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNEO"
+          aria-controls="navbarNEO" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNEO">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Sobre <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Corpo docente</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nj Play</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Publicações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>

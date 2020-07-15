@@ -1,11 +1,23 @@
 footer {
 
   & .redesocial {
+    padding: 30px 0;
 
     &__title {
       color: $gold;
       font-size: 20px;
       font-weight: bold;
+
+      @include mobile {
+        margin: 20px 0;
+      }
+    }
+
+    @include desktop {
+      img {
+        width: 35px;
+        margin: 10px 0;
+      }
     }
 
     &__link {
@@ -14,6 +26,7 @@ footer {
     }
   }
 
+  // CONTATO
   .contato {
     background-color: $ocean;
     padding: 50px 0;
@@ -21,6 +34,128 @@ footer {
     &__title {
       color: $white;
       font-weight: bold;
+
+      @include mobile {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  // PARCEIROS
+  .parceiros {
+    padding: 0;
+
+    .container {
+      background-color: $gold;
+      height: auto;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      padding: 20px;
+    }
+
+    &__title {
+      color: $white;
+      font-weight: bold;
+
+      @include mobile {
+        text-align: center;
+      }
+    }
+
+
+
+    &__imagem {
+      border-right: 2px solid $white;
+      padding: 0;
+
+      &>img {
+        width: 150px;
+
+        @include mobile {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // INFORMACOES
+  .informacoes {
+    padding: 40px 0;
+
+    &__title {
+      font-weight: bold;
+      color: $black;
+
+      @include mobile {
+        text-align: center;
+        margin: 20px 0;
+      }
+    }
+
+    &__text {
+      color: $gray;
+
+      @include mobile {
+        text-align: center;
+      }
+    }
+
+    &__contatos {
+      display: flex;
+      margin: 20px 0;
+
+      @include mobile {
+        display: block;
+
+      }
+
+      .informacoes__email {
+        border-right: 2px solid $black;
+        padding: 0 10px 0 0;
+
+        @include mobile--desktop {
+          margin: 20px 0;
+          border: 0;
+
+          img {
+            width: 30px;
+          }
+        }
+      }
+
+      .informacoes__telefone {
+        padding: 0 0 0 10px;
+
+        @include mobile {
+          margin: 20px 0;
+        }
+
+        &>a {
+          color: $black;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  // COPY
+  .copy {
+    border-top: 1px solid $black;
+    padding: 20px 0;
+
+
+
+    span,
+    a {
+      font-size: 12px;
+      color: $black;
+
+      @include mobile {
+        text-align: center;
+        display: block;
+        padding: 5px;
+      }
     }
   }
 }

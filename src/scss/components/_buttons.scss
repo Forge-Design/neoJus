@@ -9,3 +9,14 @@
     color: $white;
   }
 }
+
+.btn__comprar {
+  background-color: $ocean;
+  color: $white;
+  padding: 10px 40px;
+  font-weight: bold;
+
+  &:hover {
+    color: $gold;
+  }
+}

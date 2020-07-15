@@ -1,0 +1,67 @@
+.paginas {
+  padding: 20px 0;
+
+  &__title {
+    color: $gold;
+    font-weight: bold;
+    // margin: 20px 0;
+  }
+
+  &__subitle {
+    color: $gray;
+  }
+
+  &__valor {
+    color: $gold;
+
+    strong {
+      color: $ocean;
+    }
+  }
+
+  // CARD DAS PAGINAS
+  &__card {
+    background-color: $white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05);
+
+    &--descricao {
+      background-color: $white;
+      margin: 20px 0;
+
+      &--title {
+        color: $ocean;
+        font-weight: bold;
+      }
+
+      &--text {
+        font-size: 12px;
+      }
+
+      &--date {
+        font-size: 12px;
+        color: $gold;
+      }
+    }
+  }
+
+  // NAVEGAÇÃO
+  &__nav {
+    background-color: $ocean;
+    border-radius: 6px;
+
+    &>li {
+      border-bottom: 1px solid $bg;
+
+      &>a {
+        color: $white;
+
+        &:hover {
+          color: $gold;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

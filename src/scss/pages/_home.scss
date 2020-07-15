@@ -1,19 +1,44 @@
+#fundo {
+  background: url(../img/bg-body.png) left bottom no-repeat;
+  background-size: contain;
+  background-size: 700px;
+  padding: 0;
+}
+
 /* BANNER HOME */
 
 .banner {
   position: relative;
+  top: -45px;
+
+  @include mobile {
+    position: initial;
+  }
 
   &__imagem {
     background: url(../img/banner.jpg) center center no-repeat;
     background-size: cover;
     height: 600px;
+    position: relative;
+
+    @include mobile {
+      height: 250px;
+      align-items: center;
+      display: flex;
+    }
   }
 
   &__description {
     position: absolute;
-    right: 140px;
+    right: 0px;
     bottom: 30px;
     width: 360px;
+
+    @include mobile {
+      width: 100%;
+      position: initial;
+      text-align: center;
+    }
 
     .banner__title {
       color: $white;
@@ -28,6 +53,12 @@
 
 /* CURSOS */
 .cursos {
+  padding: 40px 0;
+
+  @include mobile {
+    text-align: center;
+  }
+
   &__title {
     color: $ocean;
     font-weight: bold;
@@ -38,6 +69,11 @@
   }
 
   &__lista {
+
+    @include mobile {
+      display: inline-block !important;
+    }
+
     li {
       margin: 0 10px 0 0;
 
@@ -64,15 +100,23 @@
       &--title {
         font-weight: 700;
       }
+
+      @include mobile {
+        border-radius: 0;
+      }
     }
 
     &--white {
       background-color: $white;
-      padding: 50px;
+      padding: 40px;
       height: 400px;
       border-radius: 15px;
       box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05);
       border: 1px solid transparent;
+
+      @include mobile {
+        margin: 10px 0;
+      }
 
       &--lista {
         li {
@@ -105,6 +149,10 @@
         padding: 5px 17px;
         border-radius: 35px;
         float: right;
+
+        @include mobile {
+          float: initial;
+        }
       }
 
       &:hover {
@@ -193,6 +241,10 @@
           font-weight: bold;
           display: block;
           margin: 20px 0;
+
+          img {
+            width: 15px;
+          }
         }
       }
     }
@@ -211,6 +263,11 @@
       display: flex;
       align-items: center;
       padding: 30px;
+
+      @include mobile {
+        border-radius: 0;
+        height: auto;
+      }
 
       &>ul {
         &>li {
@@ -233,6 +290,16 @@
       background-color: $white;
       border-radius: 15px;
 
+      @include mobile {
+        padding: 10px 30px;
+      }
+
+      @include mobile {
+        img {
+          width: 100%;
+        }
+      }
+
       &--description {
         &--title {
           font-weight: bold;
@@ -252,6 +319,10 @@
       height: 380px;
       border-radius: 15px;
       padding: 30px;
+
+      @include mobile {
+        padding: 10px 30px;
+      }
 
       &--postagem {
         margin: 10px 0;

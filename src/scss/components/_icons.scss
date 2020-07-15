@@ -24,3 +24,14 @@
   display: inline-block;
   background-size: contain;
 }
+
+.icon--pesquisar {
+  background-image: url(../img/icons/icon-pesquisar.png);
+  position: absolute;
+  z-index: 999;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  right: 35px;
+  top: 14px;
+}

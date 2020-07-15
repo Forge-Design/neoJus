@@ -1,11 +1,11 @@
 <footer>
   <main class="redesocial">
     <div class="container">
-      <div class="row">
-        <div class="col-md-3">
+      <div class="row align-items-center">
+        <div class="col-md-3 col-12 text-center text-sm-left">
           <h4 class="redesocial__title">Acompanhe nossas redes e assista à aulas gratuitas</h4>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-4 text-center">
           <div class="d-flex align-items-center">
             <a href="">
               <img src="<?php echo U?>src/img/icons/icon-youtube.png" alt="">
@@ -13,7 +13,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-4 text-center">
           <div class="d-flex align-items-center">
             <a href="">
               <img src="<?php echo U?>src/img/icons/icon-linkedin.png" alt="">
@@ -21,7 +21,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-4 text-center">
           <div class="d-flex align-items-center">
             <a href="">
               <img src="<?php echo U?>src/img/icons/icon-instagram.png" alt="">
@@ -69,20 +69,75 @@
       </div>
     </div>
   </main>
+
   <main class="parceiros">
     <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-3">
+          <h4 class="parceiros__title">Parceiros <br> NeoJus</h4>
+        </div>
+        <div class="col-md-3 col-4 text-center">
+          <div class="parceiros__imagem">
+            <img src="https://via.placeholder.com/150" class="" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-4 text-center">
+          <div class="parceiros__imagem">
+            <img src="https://via.placeholder.com/150" class="" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-4 text-center">
+          <div class="parceiros__imagem border-0">
+            <img src="https://via.placeholder.com/150" class="" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <main class="informacoes">
+    <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <h4>Parceiros <br> NeoJus</h4>
+        <div class="col-md-6 col-12">
+          <h5 class="informacoes__title">Sobre a Neo Jus</h5>
+          <p class="informacoes__text">Cursos de extensão para a área jurídica, certificados pelo Centro Universitário,
+            Instituição de
+            ensino, NEO
+            JUS. Organização educacional privada, válido em todo território nacional.</p>
         </div>
-        <div class="col-md-3">
-
+        <div class="col-md-3 col-12 text-center">
+          <h5 class="informacoes__title">Metodo de Pagamento</h5>
+          <img src="<?php echo U?>src/img/pagseguro.png" alt="">
         </div>
-        <div class="col-md-3">
-
+        <div class="col-md-3 col-12  text-center">
+          <h5 class="informacoes__title">Fale Conosco</h5>
+          <div class="informacoes__contatos">
+            <div class="informacoes__email">
+              <a href="">
+                <img src="<?php echo U?>src/img/icons/icon-email.png" alt="">
+              </a>
+            </div>
+            <div class="informacoes__telefone">
+              <a href="">
+                <img src="<?php echo U?>src/img/icons/icon-telefone.png" alt="">
+                <span class="inforcoes__telefone--numero">(15) 0000-0000</span>
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3">
-
+      </div>
+    </div>
+  </main>
+  <main>
+    <div class="container copy">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <span class="d-block"> NEO JUS S/A | 00.000.000/0000-00 | Rua Santa Quitéria, 1171 - Vila Irene - São
+            Roque/SP</span>
+          <span class="d-block"> NEO JUS ® 2020 | Escola de Direito. Todos os direitos reservados.</span>
+        </div>
+        <div class="col-md-6 col-12 text-right text-md-text">
+          <a href="">Desenvolvido por Agência Kombi</a>
         </div>
       </div>
     </div>

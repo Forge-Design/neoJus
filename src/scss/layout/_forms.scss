@@ -1,3 +1,9 @@
 .form__default {
   border-radius: 35px;
 }
+
+.form--search {
+  background-color: transparent;
+  position: relative;
+  border: 1px solid $black;
+}

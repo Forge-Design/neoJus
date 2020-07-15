@@ -1,11 +1,47 @@
+// LOGAR
+
+
+.logar {
+  background: $gold;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  position: absolute;
+  top: 0;
+  padding: 10px 0;
+
+  &>ul>li>a {
+    color: $white;
+    display: inline-block;
+    margin: 0 15px;
+
+
+  }
+
+  & ul> {
+    :nth-child(1) {
+      border-right: 2px solid $white;
+    }
+  }
+}
+
+// NAVBAR
 .mynavbar {
   padding: 0;
-  height: 70px;
+  height: 150px;
+  margin-top: 40px;
+
+  @include mobile {
+    height: auto;
+  }
 
   .navbar-brand {
     position: absolute;
     z-index: 999;
-    top: -5px;
+    top: -45px;
+
+    @include mobile {
+      position: initial;
+    }
   }
 
   &__logo {
@@ -14,6 +50,12 @@
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     padding: 15px;
+
+    @include mobile {
+      width: 100px;
+      background-color: transparent;
+    }
+
   }
 
   ul {
@@ -21,7 +63,30 @@
       a {
         color: $gray;
         text-transform: uppercase;
+        font-weight: bold;
+
+        &:hover {
+          color: $gold;
+        }
       }
+    }
+  }
+}
+
+// Breadcrumbs
+.breadpaginas {
+  background-color: #f1f1f1;
+
+  .breadcrumb {
+    background-color: transparent;
+
+    a {
+      color: $gray;
+    }
+
+    & .active {
+      color: $gold;
+      font-weight: bold;
     }
   }
 }

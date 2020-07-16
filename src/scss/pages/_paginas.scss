@@ -19,6 +19,18 @@
     }
   }
 
+  &__numeros {
+    color: $ocean;
+    font-weight: bold;
+  }
+
+  &__redesocial {
+    img {
+      width: 35px;
+      margin: 10px;
+    }
+  }
+
   // CARD DAS PAGINAS
   &__card {
     background-color: $white;

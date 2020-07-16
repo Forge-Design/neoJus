@@ -25,81 +25,94 @@
     </div>
   </main>
 
-  <article class="paginas">
+  <aside>
     <div class="container">
       <div class="row">
-        <div class="col-md-12 mb-4">
-          <h3 class="paginas__title">Título de Notícia</h3>
-          <h6 class="paginas__subitle">Assunto da notícia</h6>
-        </div>
-        <div class="col-md-4 col-12">
-          <figure>
-            <img src="https://via.placeholder.com/500x300" alt="" class="w-100">
-          </figure>
-        </div>
-        <div class="col-md-8 col-12">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto laborum autem perferendis, aliquam culpa
-            dicta, in nulla, similique voluptatem vero est minus quaerat animi ipsa voluptatum. Sint atque delectus
-            maiores.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis non fuga inventore magnam nemo. Ea
-            nesciunt eos magnam, eum, eaque provident autem ut libero magni accusantium veritatis voluptatibus amet.
-            Accusamus!</p>
-        </div>
-        <div class="col-md-12 my-3">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in voluptatem nesciunt reprehenderit
-            aliquam alias at commodi ullam rerum facere voluptate, quam aspernatur eligendi a quis architecto, ab
-            sapiente odio.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in voluptatem nesciunt reprehenderit
-            aliquam alias at commodi ullam rerum facere voluptate, quam aspernatur eligendi a quis architecto, ab
-            sapiente odio.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in voluptatem nesciunt reprehenderit
-            aliquam alias at commodi ullam rerum facere voluptate, quam aspernatur eligendi a quis architecto, ab
-            sapiente odio.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in voluptatem nesciunt reprehenderit
-            aliquam alias at commodi ullam rerum facere voluptate, quam aspernatur eligendi a quis architecto, ab
-            sapiente odio.</p>
-        </div>
-        <!-- SLIDER SWITH -->
         <div class="col-md-12">
-          <!-- Swiper -->
-          <div class="swiper-container">
-            <!-- WRAPPER -->
-            <div class="swiper-wrapper">
-              <!-- CARD CURSOS -->
-              <div class="swiper-slide">
-                <div class="col-md-12">
-                  <!-- COLOCAR LINK -->
-                  <a href="">
-                    <!-- COLOCAR LINK -->
-                    <div class="cursos__card cursos__card--white">
-                      <h5 class="cursos__card--white--title">Direito penal, anticorrupção e compliance</h5>
-                      <ul class="list-unstyled cursos__card--white--lista">
-                        <li><i class="icone__start"></i> Aulas online, assista agora mesmo pelo NJPLAY.</li>
-                        <li><i class="icone__horario"></i>Carga horária de 120 horas.</li>
-                        <li><i class="icone__certificado"></i>Certificado NEOJUS.</li>
-                      </ul>
-                      <p class="cursos__card--white--valor">em até 6x R$350,00</p>
-                      <span class="cursos__card--white--ver">+</span>
-                    </div>
-                  </a>
+          <div class="col-md-12 mb-4">
+            <h3 class="paginas__title">Notícias</h3>
+          </div>
+        </div>
+
+        <div class="col-md-8 order-2 order-md-1">
+          <div class="row">
+            <!-- CARD -->
+            <div class="col-md-6 col-12 mb-3">
+              <div class="paginas__card">
+                <div class="paginas__card--descricao">
+                  <h6 class="paginas__card--descricao--title">Título de notícia</h6>
+                  <p class="paginas__card--descricao--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ducimus natus veritatis odit eligendi
+                    voluptates praesentium ullam dignissimos, eos modi necessitatibus placeat quam consectetur in.
+                    Omnis,
+                    repellat! Suscipit commodi necessitatibus accusantium!</p>
+                  <a href="" class="btn btn__default">Ver mais</a>
                 </div>
               </div>
-              <!-- CARD CURSOS -->
             </div>
-            <!-- WRAPPER -->
-            <!-- ADD PAG -->
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <!-- //CARD -->
+            <!-- CARD -->
+            <div class="col-md-6 col-12 mb-3">
+              <div class="paginas__card">
+                <div class="paginas__card--descricao">
+                  <h6 class="paginas__card--descricao--title">Título de notícia</h6>
+                  <p class="paginas__card--descricao--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ducimus natus veritatis odit eligendi
+                    voluptates praesentium ullam dignissimos, eos modi necessitatibus placeat quam consectetur in.
+                    Omnis,
+                    repellat! Suscipit commodi necessitatibus accusantium!</p>
+                  <a href="" class="btn btn__default">Ver mais</a>
+                </div>
+              </div>
+            </div>
+            <!-- //CARD -->
           </div>
-          <!-- SLIDER SWITH -->
         </div>
-        <div class="col-md-12 text-center">
-          <a href="" class=" btn btn__default">Ver todos os cursos</a>
+
+        <!-- NAVBAR LATERAL -->
+        <div class="col-md-4 order-md-2 order-1">
+          <div class="pesquisar">
+            <form action="" method="post">
+              <div class="form-group">
+                <span class="icon--pesquisar"></span>
+                <input type="search" name="Pesquisar" class="form-control form-control-lg form__default form--search"
+                  placeholder="Pesquise seu Interesse" id="">
+              </div>
+            </form>
+          </div>
+          <div class="assuntos py-3">
+            <h5 class="paginas__title">Assuntos</h5>
+            <ul class="nav paginas__nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="#">link (1)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">link (1)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">link (1)</a>
+              </li>
+            </ul>
+          </div>
+          <!--  -->
+          <div class="docentes py-3">
+            <h5 class="paginas__title">Docentes</h5>
+            <ul class="nav paginas__nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="#">link (1)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">link (1)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">link (1)</a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <!-- NAVBAR LATERAL -->
       </div>
-  </article>
+  </aside>
 
 
 

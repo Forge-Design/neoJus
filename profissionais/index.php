@@ -28,9 +28,10 @@
   <article class="paginas">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 mb-3">
           <h3 class="paginas__title">Profissionaiss</h3>
         </div>
+        <!-- CARD -->
         <div class="col-md-3 col-12">
           <div class="paginas__card">
             <div class="paginas__card--imagem">
@@ -45,6 +46,7 @@
             </div>
           </div>
         </div>
+        <!-- //CARD -->
       </div>
     </div>
   </article>

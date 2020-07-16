@@ -153,7 +153,7 @@
 <!-- Initialize Swiper -->
 <script>
   var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 4,
+    slidesPerView: 1,
     spaceBetween: 30,
     freeMode: true,
     navigation: {
@@ -180,6 +180,40 @@
       // when window width is >= 640px
       976: {
         slidesPerView: 4,
+        spaceBetween: 40
+      }
+    }
+  });
+
+  var swiper = new Swiper('.publicacoes', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    freeMode: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    z
+    // Responsive breakpoints
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 40
+      },
+      // when window width is >= 97px
+      976: {
+        slidesPerView: 2,
         spaceBetween: 40
       }
     }

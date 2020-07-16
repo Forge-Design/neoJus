@@ -95,6 +95,9 @@
           </div>
           <!-- SLIDER SWITH -->
         </div>
+        <div class="col-md-12 text-center">
+          <a href="" class=" btn btn__default">Ver todos os cursos</a>
+        </div>
       </div>
   </article>
 

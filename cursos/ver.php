@@ -27,14 +27,43 @@
 
   <article class="paginas">
     <div class="container">
-      <div class="row">
+      <div class="row mb-3">
         <div class="col-md-6 text-left">
           <h3 class="paginas__title">Nome do curso</h3>
           <h6 class="paginas__subitle">Nome do Instrutor</h6>
         </div>
-        <div class="col-md-6 text-right">
+        <div class="col-md-6 text-right ">
           <h3 class="paginas__valor">Por apenas <strong>R$ 999,00</strong></h3>
           <a href="" class="btn btn__comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <figure>
+            <img src="https://via.placeholder.com/500x300" alt="" class="w-100">
+          </figure>
+        </div>
+        <div class="col-md-8 col-12">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto laborum autem perferendis, aliquam culpa
+            dicta, in nulla, similique voluptatem vero est minus quaerat animi ipsa voluptatum. Sint atque delectus
+            maiores.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis non fuga inventore magnam nemo. Ea
+            nesciunt eos magnam, eum, eaque provident autem ut libero magni accusantium veritatis voluptatibus amet.
+            Accusamus!</p>
+        </div>
+        <div class="col-md-12 my-3">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in voluptatem nesciunt reprehenderit
+            aliquam alias at commodi ullam rerum facere voluptate, quam aspernatur eligendi a quis architecto, ab
+            sapiente odio.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in voluptatem nesciunt reprehenderit
+            aliquam alias at commodi ullam rerum facere voluptate, quam aspernatur eligendi a quis architecto, ab
+            sapiente odio.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in voluptatem nesciunt reprehenderit
+            aliquam alias at commodi ullam rerum facere voluptate, quam aspernatur eligendi a quis architecto, ab
+            sapiente odio.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in voluptatem nesciunt reprehenderit
+            aliquam alias at commodi ullam rerum facere voluptate, quam aspernatur eligendi a quis architecto, ab
+            sapiente odio.</p>
         </div>
       </div>
       <!-- OUTROS CURSOS -->

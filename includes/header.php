@@ -25,6 +25,8 @@
   <link rel="stylesheet" href="<?php echo U?>src/vendors/bootstrap/bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="<?php echo U?>src/css/main.min.css">
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   </head>
 
   <body>

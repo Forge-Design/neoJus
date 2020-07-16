@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <!-- Required meta tags -->
-<title>NeoJus | Notícias</title>
+<title>NeoJus | Profissionais</title>
 
 <head>
   <?php
@@ -29,8 +29,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 mb-4">
-          <h3 class="paginas__title">Título de Notícia</h3>
-          <h6 class="paginas__subitle">Assunto da notícia</h6>
+          <h3 class="paginas__title">Quem somos</h3>
         </div>
         <div class="col-md-4 col-12">
           <figure>
@@ -44,6 +43,7 @@
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis non fuga inventore magnam nemo. Ea
             nesciunt eos magnam, eum, eaque provident autem ut libero magni accusantium veritatis voluptatibus amet.
             Accusamus!</p>
+          <a href="" class="btn btn__default">Profissionais</a>
         </div>
         <div class="col-md-12 my-3">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in voluptatem nesciunt reprehenderit
@@ -59,46 +59,9 @@
             aliquam alias at commodi ullam rerum facere voluptate, quam aspernatur eligendi a quis architecto, ab
             sapiente odio.</p>
         </div>
-        <!-- SLIDER SWITH -->
-        <div class="col-md-12">
-          <!-- Swiper -->
-          <div class="swiper-container">
-            <!-- WRAPPER -->
-            <div class="swiper-wrapper">
-              <!-- CARD CURSOS -->
-              <div class="swiper-slide">
-                <div class="col-md-12">
-                  <!-- COLOCAR LINK -->
-                  <a href="">
-                    <!-- COLOCAR LINK -->
-                    <div class="cursos__card cursos__card--white">
-                      <h5 class="cursos__card--white--title">Direito penal, anticorrupção e compliance</h5>
-                      <ul class="list-unstyled cursos__card--white--lista">
-                        <li><i class="icone__start"></i> Aulas online, assista agora mesmo pelo NJPLAY.</li>
-                        <li><i class="icone__horario"></i>Carga horária de 120 horas.</li>
-                        <li><i class="icone__certificado"></i>Certificado NEOJUS.</li>
-                      </ul>
-                      <p class="cursos__card--white--valor">em até 6x R$350,00</p>
-                      <span class="cursos__card--white--ver">+</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <!-- CARD CURSOS -->
-            </div>
-            <!-- WRAPPER -->
-            <!-- ADD PAG -->
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          </div>
-          <!-- SLIDER SWITH -->
-        </div>
       </div>
+    </div>
   </article>
-
-
 
   <!-- Include Footer -->
   <?php include_once(U . 'includes/footer.php'); ?>

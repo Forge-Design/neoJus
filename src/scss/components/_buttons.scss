@@ -20,3 +20,25 @@
     color: $gold;
   }
 }
+
+.btn__mensagem {
+  background-color: $ocean;
+  color: $white;
+  border-radius: 35px;
+  padding: 10px 40px;
+
+  &:hover {
+    color: $gold;
+  }
+}
+
+.btn__default {
+  background-color: $ocean;
+  color: $white;
+  border-radius: 35px;
+  padding: 10px 40px;
+
+  &:hover {
+    color: $gold;
+  }
+}

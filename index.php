@@ -31,7 +31,7 @@
     <!-- /BANNER -->
 
     <!-- CURSOS HOME -->
-    <main class="cursos">
+    <main class="cursos py-2">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -137,7 +137,7 @@
     </main>
     <!-- /CURSOS HOME -->
 
-    <main class="corpodocente">
+    <main class="corpodocente py-2">
       <div class="container">
         <div class="row">
           <div class="col-md-2 d-none d-sm-block">

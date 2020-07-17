@@ -231,7 +231,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-6 pl-0">
+          <div class="col-md-6 pl-0 my-3 mb-md-0">
             <div class="blog__card--destaque">
               <figure>
                 <img src="https://via.placeholder.com/550x230" alt="" class="">

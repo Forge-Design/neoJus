@@ -22,7 +22,8 @@
   <META NAME="geo.region" content="BR">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="<?php echo U?>src/vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="<?php echo U?>src/css/main.min.css">
   <!-- SWIPER -->
@@ -56,7 +57,9 @@
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNEO"
           aria-controls="navbarNEO" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNEO">

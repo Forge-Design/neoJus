@@ -32,6 +32,28 @@
 
   @include mobile {
     height: auto;
+    padding: 0 15px;
+  }
+
+  .line {
+    width: 36px;
+    height: 2px;
+    display: block;
+    background-color: $gold;
+
+    &:nth-child(1) {
+      margin: 5px 0;
+    }
+
+    &:nth-child(2) {
+      margin: 5x 0;
+      width: 28px;
+    }
+
+    &:nth-child(3) {
+      margin: 5px 0;
+      width: 36px;
+    }
   }
 
   .navbar-brand {

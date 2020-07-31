@@ -34,6 +34,10 @@
     height: auto;
     padding: 0 15px;
   }
+  @include tablet-landscape-down{
+    height: auto;
+    padding: 0 15px;
+  }
 
   .line {
     width: 36px;
@@ -64,35 +68,43 @@
     @include mobile {
       position: initial;
     }
+    @include tablet-landscape-down{
+     position: initial;
+   }
+ }
+
+ &__logo {
+  width: 150px;
+  background-color: $white;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 15px;
+
+  @include mobile{
+    width: 100px;
+    background-color: transparent;
   }
 
-  &__logo {
-    width: 150px;
-    background-color: $white;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    padding: 15px;
-
-    @include mobile {
-      width: 100px;
-      background-color: transparent;
-    }
-
+  @include tablet-landscape-down{
+    width: 100px;
+    background-color: transparent;
   }
 
-  ul {
-    li {
-      a {
-        color: $gray;
-        text-transform: uppercase;
-        font-weight: bold;
+}
 
-        &:hover {
-          color: $gold;
-        }
+ul {
+  li {
+    a {
+      color: $gray;
+      text-transform: uppercase;
+      font-weight: bold;
+
+      &:hover {
+        color: $gold;
       }
     }
   }
+}
 }
 
 // Breadcrumbs

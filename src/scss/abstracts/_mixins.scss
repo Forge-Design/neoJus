@@ -10,8 +10,8 @@
   }
 }
 
-@mixin tablet-landscape-up {
-  @media (min-width: 900px) {
+@mixin tablet-landscape-down {
+  @media (max-width: 900px) {
     @content;
   }
 }

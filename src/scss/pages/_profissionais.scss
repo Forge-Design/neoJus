@@ -1,0 +1,26 @@
+.header{
+	background: url(../img/banner.jpg);
+	background-size: cover;
+	height: 200px;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+
+	@media (min-width: 992px){
+		position: relative;
+		top: -50px;
+	}
+
+	&__title{
+		font-weight: bold;
+		color: $white;
+	}
+	ul{
+		li{
+			display: inline-block;
+			a{
+				color: $white;
+			}
+		}
+	}
+}

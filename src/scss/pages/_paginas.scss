@@ -31,6 +31,15 @@
     }
   }
 
+  &__foto{
+    @media (min-width: 992px){
+      position: relative;
+      top: -130px;
+      border: 1px solid $blue;
+      padding: 10px;
+    }
+  }
+
   & .card__publicacoes {
     background-color: $white;
     padding: 10px;
